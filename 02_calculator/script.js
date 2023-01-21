@@ -63,6 +63,10 @@ document.querySelector("#calculate").addEventListener("click", () => {
       default:
         break;
     }
+    $operator.value = "";
+    numOne = $result.value;
+    operator = "";
+    numTwo = "";
   } else {
     alert("숫자를 먼저 입력하세요.");
   }
